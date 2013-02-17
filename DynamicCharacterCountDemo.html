@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>Dynamic Character Count Demo</title>
+    <meta content="jQuery plugin: Dynamic Character Count Demo" name="description">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.charcount.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // Uses default setting.
+            $("#weiboMsg").charCount();
+        });
+    </script>
+
+
+</head>
+<body>
+<form id="form" method="post">
+    <h2>有什么新鲜事想告诉大家？</h2>
+
+    <div>
+        <label class="mali_oglas_kategorija" for="message">有什么新鲜事想告诉大家？<b></b></label>
+        <textarea id="weiboMsg" placeholder="请Fun享"></textarea>
+        <span class="counter"></span>
+        <input onclick="SaveCache()" type="submit" value="发布">
+    </div>
+</form>
+</body>
+</html>
