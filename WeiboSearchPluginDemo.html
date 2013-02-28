@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/weibo.serach.style.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.weibo.search.js"></script>
+
+    <!-- When document ready invokes charCount function-->
+    <script type="text/javascript">
+        // Invokes webioSearch function.
+        $(document).ready(function () {
+            $("#weibo1").weiboSearch({
+                term:'情人节',
+                direction:'down'
+            });
+
+            $("#weibo2").weiboSearch({
+                term:'元宵节',
+                direction:'up'
+            });
+        });
+    </script>
+</head>
+<body>
+<table>
+    <tbody>
+    <tr>
+        <td>
+            <div id="weibo1" class="weibo">
+            </div>
+        </td>
+        <td>
+            <div id="weibo2" class="weibo">
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

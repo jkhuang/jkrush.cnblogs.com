@@ -1,0 +1,25 @@
+div.weibo { margin: auto; width: 300px }
+#weibo1 { height: 300px;}
+#weibo2 { height: 300px; }
+body { background-color: white }
+body, div { font-family: '微软雅黑', helvetica, verdana, arial, sans-serif }
+body { margin: 20px 0; padding: 0; font-size: small; color: #333 }
+div {display: block}
+
+/* Image rounded corner*/
+.weiboSearchProfileImg{
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+table {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 25px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
