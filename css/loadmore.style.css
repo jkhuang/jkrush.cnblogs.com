@@ -1,0 +1,6 @@
+﻿@import url("reset.css");
+body,td,th {font-family: 'Microsoft Yahei', Georgia, Times New Roman, Times, serif;font-size: 15px;}
+.animation_image {background: #F9FFFF;border: 1px solid #E1FFFF;padding: 10px;width: 500px;margin-right: auto;margin-left: auto;}
+#result{width: 500px;margin-right: auto;margin-left: auto;}
+#result ol{margin: 0px;padding: 0px;}
+#result li{margin-top: 20px;border-top: 1px dotted #E1FFFF;padding-top: 20px;}
