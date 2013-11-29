@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Online Document Viewer Demo</title>
+	<meta name="author" content="JK_Rush">
+	<link rel="stylesheet" type="text/css" media="all" href="css/docstyle.css">
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.onlinedocview.js"></script>
+	<script type="text/javascript">
+	    $(document).ready(function () {
+                $("#controls").viewer();
+        });
+	</script>
+</head>
+<body>
+	<div>
+		<div id="content">
+			<h1>Online Document Viewer Demo</h1>
+			<div id="controls">
+				<div id="backpage" class="ios-arrow-left">Back</div>
+				<div id="forwardpage" class="ios-arrow-right">Forward</div>
+			</div>
+			<div id="doccontainer">
+				<img src="img/1.jpg" data-page="1" title="click for next page"></div>
+		</div><!-- END #content -->
+	</div><!-- END # -->
+</body>
+
